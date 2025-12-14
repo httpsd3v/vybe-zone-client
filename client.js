@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // ⚠️ REPLACE THIS URL WITH YOUR DEPLOYED SERVER'S ADDRESS
-    const socket = io('https://api.render.com/deploy/srv-d4v3q17pm1nc73bg5sh0?key=nkfcJIPke_A'); 
+    const socket = io('https://vybe-zone-server.onrender.com'); 
     
     const messagesContainer = document.getElementById('messages-container');
     const messageInput = document.getElementById('message-input');
@@ -102,4 +102,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
